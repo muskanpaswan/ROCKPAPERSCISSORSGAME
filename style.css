@@ -1,31 +1,38 @@
 h1 {
     text-align: center;
     background-color: aqua;
+    padding: 2%;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
 }
 
 img {
-    height: 300px;
-    width: 300px;
-    margin-top: 10px;
+    height: 200px;
+    width: 60%;
+     margin-top: 10px;
 }
-.container{
+.Choose{
     display: flex;
-    justify-content: space-around;
-    /* background-color: antiquewhite; */
+    justify-content: center;
+    margin-top: 3%;
+
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-around;
 }
 
-button{
-    width: 70px;
-    height: 60px;
-    margin-top: 200px;
-    color: wheat;
-    background-color: green;
-}
-.ul{
+ button { 
+    font-size: xx-large; 
+     margin-top: 2%; 
+     color: wheat; 
+    background-color: rgb(53, 160, 53); 
+} 
+
+.wonn {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
