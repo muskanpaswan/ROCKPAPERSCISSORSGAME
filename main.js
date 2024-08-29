@@ -28,7 +28,7 @@ scissor.addEventListener("click", () => {
     const userchoice = "scissor"
     const computerchoice = randomchoice();
     const winningMessage = compare(computerchoice , userchoice)
-    computerImage.src = `./images/${computerchoice}.png`;
+    computerImage.src = `./images/${computerchoice}.png`;   
     userImage.src = `./images/${userchoice}.png`;
     won.textContent = winningMessage;
 })
